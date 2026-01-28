@@ -2,15 +2,88 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
 * {
 
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
 
+a{
+  text-decoration: none;
+}
 
 /* Navbar */
+
+
+nav {
+    padding: 14px 50px;
+    width: 100%;
+    position: fixed;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center; 
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 110%;
+    max-width: 1120px;
+    padding: 12px 30px;
+    background: rgba(242, 247, 247, 0.7);
+    backdrop-filter: blur(30px) saturate(180%);
+    -webkit-backdrop-filter: blur(20px) saturate(180%);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    border: solid 1px rgba(213, 225, 226, 0.7);
+}
+
+.nav-logo{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.nav-logo img {
+    height: 40px;      
+    width: auto; 
+}
+
+.btn-primary{
+    background-color: #1b5b61bd;
+    color: white;
+    border-radius: 17px;
+    padding: 12px 28px;
+}
+
+.btn-secondary{
+    background-color: #71b0b4b3;
+    color: white;
+    border-radius: 17px;
+    padding: 12px 28px;
+}
+ 
+.btn-cta{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.brand-name h1 {
+font-size: 50px;
+} 
+
 
 
 /* Header */
@@ -27,6 +100,31 @@
 
 /* Évolution */
 
+#evolution{
+    padding: 40px;
+}
+
+#evolution h2{
+    font-size: medium;
+}
+
+.evolution-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.phone-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 45px;
+    gap: 20px;
+}
+
+.phone-container img{
+    height: 98vh;
+}
 
 /* L'équipe */
 
