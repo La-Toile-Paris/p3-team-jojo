@@ -8,6 +8,7 @@
 
     margin: 0;
     padding: 0;
+    outline: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
@@ -146,27 +147,120 @@ height: 550px;
 #dl-btn-two img{
   height: 50px;
 }
+/*Avantages de jojo*/ 
+.main-container-landing {
+  overflow: hidden;
+  max-width: 100%;
+}
 
-/* Graphique */
+.main-container-landing,
+.main-container-landing * {
+  box-sizing: border-box;
+}
 
-#graphique{
-  height: 80vh;;
+.main-container-landing{
+  position: relative;
+  height: 184px;
+  margin: 0 auto;
+  background: #ffffff;
+  overflow: hidden;
+
+}
+.rectangle-landing {
+  position: absolute;
+  width: 1034px;
+  height: 126px;
+  top: 29px;
+  left: 239px;
+  background: #ffffff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+  z-index: 4;
+  border-radius: 20px;
+  padding-right: 30px;
+}
+.gemini-generated-image {
+  position: absolute;
+  width: 91px;
+  height: 91px;
+  top: 13px;
+  left: 716px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-02-04/SW1kHoLRrm.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 12;
+}
+.gemini-generated-image-2 {
+  position: absolute;
+  width: 97px;
+  height: 91px;
+  top: 14px;
+  left: 27px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-02-04/SMXSjjZXCX.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 8;
+}
+.gemini-generated-image-3 {
+  position: absolute;
+  width: 97px;
+  height: 91px;
+  top: 14px;
+  left: 357px;
+  background: url(https://codia-f2c.s3.us-west-1.amazonaws.com/image/2026-02-04/08RusrCXMH.png)
+    no-repeat center;
+  background-size: cover;
+  z-index: 9;
+}
+.reponses-immediates {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding: 20px;
-  
-  color: #1b5b61;
+  justify-content: flex-start;
+  position: absolute;
+  width: 219px;
+  height: 91px;
+  top: 18px;
+  left: 461px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  z-index: 5;
 }
+.droit-du-travail {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 180px;
+  height: 91px;
+  top: 18px;
+  left: 133px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;
+  z-index: 6;
+}
+.confidentialite-securite {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: absolute;
+  width: 180px;
+  height: 91px;
+  top: 18px;
+  left: 819px;
+  color: #000000;
+  font-family: Poppins, var(--default-font-family);
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 36px;
+  text-align: left;}
 
-#graphique img {
-  width: 50vw;
-}
-
-#graphique h1 {
-  padding-bottom: 40px;
-}
 /* Fonctionnalités */
 
 
